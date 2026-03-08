@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="MainTest" time="1.759" tests="10" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="MainTest" time="1.901" tests="10" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="user.country" value="TR"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Users\umit5\.jdks\ms-17.0.18\bin"/>
-    <property name="sun.java.command" value="C:\Users\umit5\AppData\Local\Temp\surefire2918387034809354548\surefirebooter8715880383841900724.jar C:\Users\umit5\AppData\Local\Temp\surefire2918387034809354548 2026-03-08T04-52-27_573-jvmRun1 surefire2610283922184359560tmp surefire_04924870188895569089tmp"/>
+    <property name="sun.java.command" value="C:\Users\umit5\AppData\Local\Temp\surefire10218421393752876596\surefirebooter840866447709251772.jar C:\Users\umit5\AppData\Local\Temp\surefire10218421393752876596 2026-03-08T05-00-06_240-jvmRun1 surefire12505068592567253665tmp surefire_02978138723992161974tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\umit5\Documents\Workintech\Sprint_1\Etud\FSWEB-S13D4-Maven\target\test-classes;C:\Users\umit5\Documents\Workintech\Sprint_1\Etud\FSWEB-S13D4-Maven\target\classes;C:\Users\umit5\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.2\junit-jupiter-engine-5.9.2.jar;C:\Users\umit5\.m2\repository\org\junit\platform\junit-platform-engine\1.9.2\junit-platform-engine-1.9.2.jar;C:\Users\umit5\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\umit5\.m2\repository\org\junit\platform\junit-platform-commons\1.9.2\junit-platform-commons-1.9.2.jar;C:\Users\umit5\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.2\junit-jupiter-api-5.9.2.jar;C:\Users\umit5\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\umit5\.m2\repository\org\apache\httpcomponents\httpclient\4.5.14\httpclient-4.5.14.jar;C:\Users\umit5\.m2\repository\org\apache\httpcomponents\httpcore\4.4.16\httpcore-4.4.16.jar;C:\Users\umit5\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\umit5\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\umit5\.m2\repository\org\json\json\20240205\json-20240205.jar;C:\Users\umit5\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\umit5\AppData\Local\Temp\surefire2918387034809354548\surefirebooter8715880383841900724.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\umit5\AppData\Local\Temp\surefire10218421393752876596\surefirebooter840866447709251772.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.18+8-LTS"/>
@@ -63,14 +63,14 @@
     <property name="maven.repo.local" value="C:\Users\umit5\.m2\repository"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="testDistanceMethodWithPointParameter" classname="MainTest" time="0.043"/>
-  <testcase name="testDistanceMethodWithTwoParameter" classname="MainTest" time="0.001"/>
-  <testcase name="testWeaponTypesAccessModifiers" classname="MainTest" time="0.007"/>
-  <testcase name="testPlayerTypesAccessModifiers" classname="MainTest" time="0.002"/>
-  <testcase name="testDistanceMethodWithoutParameter" classname="MainTest" time="0.001"/>
-  <testcase name="testPointTypes" classname="MainTest" time="0.002"/>
-  <testcase name="testRestoreHealth" classname="MainTest" time="0.001"/>
-  <testcase name="testLoseHealth" classname="MainTest" time="0.002"/>
+  <testcase name="testDistanceMethodWithPointParameter" classname="MainTest" time="0.101"/>
+  <testcase name="testDistanceMethodWithTwoParameter" classname="MainTest" time="0"/>
+  <testcase name="testWeaponTypesAccessModifiers" classname="MainTest" time="0.012"/>
+  <testcase name="testPlayerTypesAccessModifiers" classname="MainTest" time="0.001"/>
+  <testcase name="testDistanceMethodWithoutParameter" classname="MainTest" time="0.002"/>
+  <testcase name="testPointTypes" classname="MainTest" time="0.004"/>
+  <testcase name="testRestoreHealth" classname="MainTest" time="0.004"/>
+  <testcase name="testLoseHealth" classname="MainTest" time="0.004"/>
   <testcase name="testHealthPercentage" classname="MainTest" time="0.001"/>
-  <testcase name="testPointTypesAccessModifiers" classname="MainTest" time="0.002"/>
+  <testcase name="testPointTypesAccessModifiers" classname="MainTest" time="0.001"/>
 </testsuite>
